@@ -1,0 +1,17 @@
+{
+  "name": "sql_basics",
+  "version": "1.0.0",
+  "description": "Some example SQL for reference",
+  "main": "index.js",
+  "scripts": {
+    "reset": "node scripts/reset.js",
+    "run-all": "node scripts/reset.js && node scripts/run_all.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
