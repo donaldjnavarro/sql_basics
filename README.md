@@ -12,11 +12,11 @@ node scripts/reset.js
 
 ## Usage
 
-Running a SQL query
+In **package.json** scripts you will find prepackaged commands for the following tasks:
 
-```bash
-node scripts/run.js exercises/q1.sql
-```
+* Launch CLI for running any test in the exercises folder. Resets the database between each file selection.
+* Reset the database for a clean slate
+* Run all the files in the exercises folder
 
 ## Structure and stack
 

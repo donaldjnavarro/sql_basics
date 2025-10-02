@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "reset": "node scripts/reset.js",
-    "run-all": "node scripts/reset.js && node scripts/run_all.js"
+    "run-all": "node scripts/reset.js && node scripts/run_all.js",
+    "cli": "node scripts/cli.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "inquirer": "^8.2.7",
     "sqlite3": "^5.1.7"
   }
 }
